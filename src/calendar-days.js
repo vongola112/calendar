@@ -60,7 +60,7 @@ function CalendarDays(props) {
                 <div className="tools">
                     <button className='gray-button' onClick={() => props.prevMonth()}>
                         <span className="material-icons">
-                            arrow_backward
+                            arrow_backwards
                         </span>
                     </button>
                     <DropdownButton id='button-test' title={months[props.day.getMonth()]}>
